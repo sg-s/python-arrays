@@ -59,7 +59,7 @@ Let's also look ar R, and how operations on `data.frame`s work. Can we hope for 
 | nrow        | ✅          |  ❌        | ❌ | 
 | ncol        | ✅          |  ❌        | ❌ | 
 | summary        |  ✅        |❌  | ❌  | 
-| diff        | ✅ | ❌ | ❌ | 
+| diff        | ✅, `$variable` | ❌ | ❌ | 
 
 # Conclusion
 
