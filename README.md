@@ -48,3 +48,19 @@ And here's a similar table for Julia. I'm assuming `thing` is a `Matrix{Float64}
 | diff        | ✅ | ❌ | ❌ | 
 
 Julia, too dissapoints and is horribly boring and predictable. How are we supposed to get any work done with languages like this?
+
+
+Let's also look ar R, and how operations on `data.frame`s work. Can we hope for any consistency here?
+
+| What I want | `foo(thing)`  | `thing.foo` | `thing.foo()` |
+| ------------ | ---------- | ----------- | ------------ |
+| typeof         | ✅        |   ❌        |    ❌     |
+| class         | ✅        |   ❌        |    ❌     |
+| nrow        | ✅          |  ❌        | ❌ | 
+| ncol        | ✅          |  ❌        | ❌ | 
+| summary        |  ✅        |❌  | ❌  | 
+| diff        | ✅ | ❌ | ❌ | 
+
+# Conclusion
+
+python is unique amongst commonly used programming languages in how easy it makes working with arrays. Consistency is the hobgoblin of little minds. The reason `numpy` arrays work this way is so that we can feel superior as other, lesser souls flail in a hopeless effort to do basic things. 
