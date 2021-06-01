@@ -22,7 +22,7 @@ The good news is that `python` and `numpy` give you powerful tools to get this i
 | dtype |       ❌         |  ❌              |  ✅       |  ❌ |
 
 
-Wow, that's so intuitive! This is why they say python is an easy to learn language. 
+Wow, that's so intuitive! This is why they say python is an easy to learn language. I'm so grateful to the people who designed this because this presents the best possible user experience. 
 
 Let's make a similar table for for inferior languages like MATLAB. (I'm assuming `thing` is a matrix):  
 
